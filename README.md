@@ -1,6 +1,6 @@
 # A practical methodology for reproducible experimentation: an application to the Double-row Facility Layout Problem
 
-[![DOI](https://zenodo.org/badge/461803962.svg)](https://zenodo.org/badge/latestdoi/461803962)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6213030.svg)](https://doi.org/10.5281/zenodo.6213030)
 
 
 ## Abstract
