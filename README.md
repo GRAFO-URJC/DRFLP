@@ -4,28 +4,28 @@
 TODO
 
 ## Authors
-Raúl Martín-Santamaría 
-email: <raul.martin at urjc.es>
+- Raúl Martín-Santamaría<br/>
+email: `raul.martin at urjc.es`<br/>
 Department of Computer Science and Statistics, Universidad Rey Juan Carlos,
 Móstoles, 28933, Spain
 
-Sergio Cavero
-email: <sergio.cavero at urjc.es>
+- Sergio Cavero<br/>
+email: `sergio.cavero at urjc.es`<br/>
 Department of Computer Science and Statistics, Universidad Rey Juan Carlos,
 Móstoles, 28933, Spain
 
-Alberto Herrán
-email: alberto.herran at urjc.es>
+- Alberto Herrán<br/>
+email: `alberto.herran at urjc.es`<br/>
 Department of Computer Science and Statistics, Universidad Rey Juan Carlos,
 Móstoles, 28933, Spain
 
-Abraham Duarte
-email: abraham.duarte at urjc.es
+- Abraham Duarte<br/>
+email: `abraham.duarte at urjc.es`<br/>
 Department of Computer Science and Statistics, Universidad Rey Juan Carlos,
 Móstoles, 28933, Spain
 
-J. Manuel Colmenar 
-email: josemanuel.colmenar at urjc.es
+- J. Manuel Colmenar <br/>
+email: `josemanuel.colmenar at urjc.es`<br/>
 Department of Computer Science and Statistics, Universidad Rey Juan Carlos,
 Móstoles, 28933, Spain
 
