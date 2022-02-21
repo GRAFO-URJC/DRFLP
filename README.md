@@ -91,7 +91,7 @@ Building the executable artifacts from source is as easy as executing `mvn clean
 Launch the JAR from the root project directory using the following command.
 
 ```text
-java -jar DRFP-0.1-SNAPSHOT.jar
+java -jar target/DRFP-0.1-SNAPSHOT.jar
 ```
 
 Any custom property can be passed as command line parameters. See [Mork configuration](https://mork-optimization.readthedocs.io/en/latest/features/config/) for more information.
