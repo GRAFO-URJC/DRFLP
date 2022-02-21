@@ -1,0 +1,8 @@
+jupyter
+sklearn
+networkx
+pandas
+numpy
+matplotlib
+seaborn
+yellowbrick

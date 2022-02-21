@@ -1,0 +1,43 @@
+## Template for parameter description file for Iterated F-Race.
+##
+## The format is one parameter per line. Each line contains:
+##
+## 1: Name of the parameter. An unquoted alphanumeric string,
+##    example: ants
+## 2: Switch to pass the parameter. A quoted (possibly empty) string,
+##    if the value and the switch must be separated, add a space at
+##    the end of the string. Example : "--version1 --ants "
+## 3: Type. An unquoted single letter, among
+##     i: Integer, c: component, r: real.
+## 4: For c: All possible values, for i,r: minimum and maximum
+##    values. A variable number of numbers or unquoted strings within
+##    parenthesis separated by commas.
+## 5: Optionally, a character '|' followed by a parameter name
+##    followed by a set of values enclosed in parenthesis.
+##    Example: | mode (acs, ras)
+##
+# name        switch             type    values            [conditions (using R syntax)]
+
+### START PARAMETER DECLARATION
+
+# Choose constructive method and its alpha if required as a parameter
+constructive     "constructive="    c    (graspgr, grasprg, tetris, random)
+alpha1           "alpha1="          r    (0.00, 1.00) | constructive %in% c("graspgr", "grasprg", "tetris")
+
+# Choose reconstructive method and its alpha if required as a parameter
+# The destructor is chosen automatically accordingly
+reconstructive   "reconstructive="  c    (graspgr, grasprg, tetris, random)
+alpha2           "alpha2="          r    (0.00, 1.00) | reconstructive %in% c("graspgr", "grasprg", "tetris")
+destratio        "destratio="       c    (0.00, 1.00) | reconstructive %in% c("graspgr", "grasprg", "random")
+
+# Choose stopping criterion for FakeIncrementer
+stop             "stop="            c    (fraction, constant)
+fractionv         "fractionv="        r    (0.00, 0.5) | stop %in% c("fraction")
+constantv         "constantv="        i    (0, 40) | stop %in% c("constant")
+
+# Choose incrementer strategy: Liner or Fibonacci
+increment         "increment="      c    (linearinc, fiboinc)
+linearratio       "linearratio="    i    (1,20) | increment %in% c("linearinc")
+
+# Iteration budget is set to 1000*1000. Decide one value and calculate the other as 1000*1000 / chosen value. Values limited to divisors of 1000*1000 with both extremes capped.
+iterationsratio   "iterationsratio=" o   (32,40,50,64,80,100,125,160,200,250,320,400,500,625,800,1000,1250,1600,2000,2500,3125,4000,5000,6250,8000,10000,12500,15625,20000,25000,31250)
