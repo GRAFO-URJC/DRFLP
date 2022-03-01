@@ -22,7 +22,7 @@ library("readxl")
 
 devtools::install_github("b0rxa/scmamp")
 
-set.seed(0)
+set.seed(123)
 options(mc.cores = 8)
 #rstan_options(auto_write = TRUE)
 
