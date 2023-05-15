@@ -1,36 +1,11 @@
 # A practical methodology for reproducible experimentation: an application to the Double-row Facility Layout Problem
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6213030.svg)](https://doi.org/10.5281/zenodo.6213030)
+Publication: https://doi.org/10.1162/evco_a_00317
 
+Artifacts: https://doi.org/10.5281/zenodo.6213030
 
 ## Abstract
-TODO
-
-## Authors
-- Raúl Martín-Santamaría<br/>
-email: `raul.martin at urjc.es`<br/>
-Department of Computer Science and Statistics, Universidad Rey Juan Carlos,
-Móstoles, 28933, Spain
-
-- Sergio Cavero<br/>
-email: `sergio.cavero at urjc.es`<br/>
-Department of Computer Science and Statistics, Universidad Rey Juan Carlos,
-Móstoles, 28933, Spain
-
-- Alberto Herrán<br/>
-email: `alberto.herran at urjc.es`<br/>
-Department of Computer Science and Statistics, Universidad Rey Juan Carlos,
-Móstoles, 28933, Spain
-
-- Abraham Duarte<br/>
-email: `abraham.duarte at urjc.es`<br/>
-Department of Computer Science and Statistics, Universidad Rey Juan Carlos,
-Móstoles, 28933, Spain
-
-- J. Manuel Colmenar <br/>
-email: `josemanuel.colmenar at urjc.es`<br/>
-Department of Computer Science and Statistics, Universidad Rey Juan Carlos,
-Móstoles, 28933, Spain
+Reproducibility of experiments is a complex task in stochastic methods such as evolutionary algorithms or metaheuristics in general. Many works from the literature give general guidelines to favor reproducibility. However, none of them provide both a practical set of steps and also software tools to help on this process. In this paper, we propose a practical methodology to favor reproducibility in optimization problems tackled with stochastic methods. This methodology is divided into three main steps, where the researcher is assisted by software tools which implement state-of-theart techniques related to this process. The methodology has been applied to study the Double Row Facility Layout Problem, where we propose a new algorithm able to obtain better results than the state-of-the-art methods. To this aim, we have also replicated the previous methods in order to complete the study with a new set of larger instances. All the produced artifacts related to the methodology and the study of the target problem are available in Zenodo.
 
 ## Datasets
 
@@ -132,11 +107,47 @@ Note that the experiment `PreviousExperiment`, ie, our implementation of Amaral 
 
 Consider citing our paper if used in your own work:
 
-### DOI
-Pending
+### Text
+Raúl Martín-Santamaría, Sergio Cavero, Alberto Herrán, Abraham Duarte, J. Manuel Colmenar; A practical methodology for reproducible experimentation: an application to the Double-row Facility Layout Problem. Evol Comput 2022; doi: https://doi.org/10.1162/evco_a_00317
 
 ### Bibtex
 ```
-Pending
+@article{10.1162/evco_a_00317,
+    author = {Martín-Santamaría, Raúl and Cavero, Sergio and Herrán, Alberto and Duarte, Abraham and Colmenar, J. Manuel},
+    title = "{A practical methodology for reproducible experimentation: an application to the Double-row Facility Layout Problem}",
+    journal = {Evolutionary Computation},
+    pages = {1-35},
+    year = {2022},
+    month = {11},
+    issn = {1063-6560},
+    doi = {10.1162/evco_a_00317},
+    url = {https://doi.org/10.1162/evco\_a\_00317},
+    eprint = {https://direct.mit.edu/evco/article-pdf/doi/10.1162/evco\_a\_00317/2057545/evco\_a\_00317.pdf},
+}
 ```
 
+## Authors
+- Raúl Martín-Santamaría<br/>
+email: `raul.martin at urjc.es`<br/>
+Department of Computer Science and Statistics, Universidad Rey Juan Carlos,
+Móstoles, 28933, Spain
+
+- Sergio Cavero<br/>
+email: `sergio.cavero at urjc.es`<br/>
+Department of Computer Science and Statistics, Universidad Rey Juan Carlos,
+Móstoles, 28933, Spain
+
+- Alberto Herrán<br/>
+email: `alberto.herran at urjc.es`<br/>
+Department of Computer Science and Statistics, Universidad Rey Juan Carlos,
+Móstoles, 28933, Spain
+
+- Abraham Duarte<br/>
+email: `abraham.duarte at urjc.es`<br/>
+Department of Computer Science and Statistics, Universidad Rey Juan Carlos,
+Móstoles, 28933, Spain
+
+- J. Manuel Colmenar <br/>
+email: `josemanuel.colmenar at urjc.es`<br/>
+Department of Computer Science and Statistics, Universidad Rey Juan Carlos,
+Móstoles, 28933, Spain
